@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/svg+xml">
+</head>
+
+<body>
+    <header id=" home">
+        <nav class="navbar navbar-expand-lg navbar-dark  pt-1">
+            <div class="container">
+                <a class="navbar-brand d-flex" href="#">
+                    <img src="./images/logo.png" class="w-25" alt="">
+                    <div class="text-logo ms-3">
+                        <h1 class="h6 ">Weather</h1>
+                        <small class="h6 lead">tagline goes here</small>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">photo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+            <div class="container">
+                <div class="input">
+                    <input type="text" class="search border-0  my-5" placeholder="Find your location..." list="category">
+
+                                <datalist id="category">
+                                    <option value="cairo" />
+                                </datalist>
+                    <div class="d-flex justify-content-center">
+                        <button class="btnClicked btn btn-info rounded-5 border-0 px-5 mb-3">Find</button>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="forecast-table">
+            <div class="container">
+                <div class="forecast-container">
+                    <div class="row">
+                        <div class="col-lg-4 main-background ">
+                            <div class="today-forecast mt-3 ">
+                            </div>
+                        </div>
+                        <div class="col lg-4">
+                            <div class="row row-2">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="set-footer my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="position-relative">
+                            <input type="text" class="border-0" placeholder="Please Enter your email to subscribe...">
+                            <button class="btn-success btn main-background position-absolute ">subscribe</button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="social-links mt-2 text-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+
+:root {
+    --main-color: #BEC8D4;
+    --bg-color: #0F71BA
+}
+body {
+    background-image: url(../images/pexels-summerstock-325117.jpg);
+    line-height: 1.5;
+    color: #bfc1c8;
+
+    
+}
+.main-background {
+    background-color: var(--bg-color);
+}   
+.main-color{
+    color: var(--bg-color);
+}
+header nav {
+    background-color: #012839;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.text-logo small {
+    color: #bfc1c8;
+    font-size: 0.7rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 25px;
+    margin-right: 1rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    border-color: var(--main-color);
+}
+input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background-color: #012839;
+    color: white;
+    border-radius: 30px;
+}
+
+
+.forecast-header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.forecast-content .location {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.forecast-content .degree .number {
+    font-size: 6.5rem;
+
+}
+
+.forecast:nth-last-child(1) {
+    background-color: var(--bg-color);
+}
+.forecast{
+    background-color: #012839;
+}
+
+.forecast-next .degree .number {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.set-footer button {
+    top: 1rem;
+    right: 1rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.social-links a {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     display: inline-block;
+     text-align: center;
+     line-height: 2.5;
+     background-color: #1e202b;
+     color: var(--main-color);
+     transition:  0.5s all;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     -webkit-transition:  0.5s all;
+     -moz-transition:  0.5s all;
+     -ms-transition:  0.5s all;
+     -o-transition:  0.5s all;
+}
+.social-links a:hover{
+    background-color: var(--bg-color);
+}
